@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght:@300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    background: url('img.jpg');
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 500px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    color: #fff;
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    padding: 30px 10px;
+}
+
+.wrapper .input-box {
+    position: relative;
+    margin: 30px 0px;
+    width: 100%;
+    height: 50px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    padding: 20px 20px 10px 10px;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    color: #fff;
+    top: 50%;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+    color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.wrapper .btn {
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    color: #000;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.register-link p {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link a {
+    color: #6c3c6c;
+    text-decoration: none;
+    font-weight: 600;
+}
